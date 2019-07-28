@@ -1,0 +1,5 @@
+# 忽略当前文件夹下的test3.txt文件
+/test3.txt
+
+# 忽略所有config1.txt
+config1.txt
