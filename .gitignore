@@ -4,11 +4,18 @@
 # 添加当前目录下bin文件夹下的bintest2.txt文件（无效）
 !/bin/bintest2.txt
 
+# 忽略当前目录的bin3文件夹下的所有文件
+/bin3/*
+
+# 添加当前目录下bin3文件夹下的bintest.txt（有效）
+!/bin3/bintest.txt
+
 # 忽略当前目录的bin2文件夹
 /bin2
 
 # 忽略当前目录的dir文件
 /dir
+
 
 # 忽略所有的test.txt文件
 test.txt
